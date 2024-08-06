@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter";
+    margin: 0;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    gap: 20px;
+    padding: 30px;
+    width: 400px;
+}
+
+.links-container > img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.titles > h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+}
+
+.titles > h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: hsl(75, 94%, 57%);
+}
+
+.links-container > p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.links > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: hsl(0, 0%, 20%);
+    box-sizing: border-box;
+    padding: 15px 0;
+    border-radius: 10px;
+}
+
+.links > a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
